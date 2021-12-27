@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(36, 36, 36);
+}
+
+.nav-cont {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-item {
+  padding: 1em;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-item a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 1);
+  border-bottom: 2px solid rgb(255, 255, 1);
+}
+img {
+  margin-top: 25.4em;
+  float: right;
+}
